@@ -1,0 +1,22 @@
+.footer{
+    background-color: black;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+.foo{
+    padding-top: 10px;
+    cursor: pointer;
+    color: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.copy{
+    padding-left: 100px;
+}
+.rama{
+    color: red;
+}

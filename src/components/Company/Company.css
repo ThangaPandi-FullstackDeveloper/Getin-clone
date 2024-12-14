@@ -1,0 +1,31 @@
+.alumin{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(109, 63, 224);
+    font-weight: bold;
+}
+.place{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.men{
+    text-align: center;
+    padding-top: 10px;
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: box-shadow 0.7s ease-in-out;
+    cursor: pointer;
+}
+.men:hover{
+    /* opacity: 0.5; */
+    cursor: pointer;
+    scale: 1.1;
+}

@@ -1,0 +1,53 @@
+.text7{
+    color: rgb(60, 8, 189);
+    font-size: 24px;
+    text-align: center;
+}
+.course{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.cou{
+    border: 1px solid rgb(60, 8, 189);
+    text-align: center;
+    height: 150px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.ct{
+    color: #fff;
+    background-color: rgb(109, 63, 224);
+    height: 40px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+.sty{
+    
+}
+.sty img{
+    transform: rotate(-10deg);
+    width: 50px;
+    height: 110px;  
+    padding-left: 300px;
+    position: absolute;
+    top: 385%;
+    right: 74%;
+
+}
+.but{
+    text-align: center;
+    height: 50px;
+    width: 130px;
+    background-color: rgb(109, 63, 224);
+    color: #fff;
+    border: none;
+}
+.ton{
+    display: grid;
+    justify-content: center;
+}

@@ -1,0 +1,24 @@
+
+.header{
+    background-color: rgb(60, 8, 189);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header ul{
+    display: flex;
+
+}
+.header ul li{
+    padding: 10px;
+    list-style: none;
+    padding-left: 30px;
+}
+.header ul li:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+.logo{
+    text-align: center;
+}

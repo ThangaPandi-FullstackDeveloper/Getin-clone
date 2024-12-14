@@ -1,0 +1,51 @@
+.t1{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(109, 63, 224);
+    font-size: 24px;
+}
+.stu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.dent{
+    text-align: center;
+    padding-top: 10px;
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: box-shadow 0.7s ease-in-out;
+    cursor: pointer;
+}
+.dent:hover{
+    scale: 1.1;
+}
+.online{
+    color: orangered;
+}
+.room{
+    color: rgb(109, 63, 224);
+}
+.learning{
+    color:  violet;
+}
+.enroll{
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color: orangered;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+.no{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height:25px;
+}
