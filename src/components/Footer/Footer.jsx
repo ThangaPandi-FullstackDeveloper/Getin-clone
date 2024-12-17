@@ -1,4 +1,5 @@
 import '../Footer/Footer.css'
+// import one from <FontAwesomeIcon icon="fa-regular fa-envelope" />
 
 function Footer(){
     return(
@@ -47,7 +48,7 @@ function Footer(){
                     </p>
                     <p className='foo'>
                         <p>KOVILPATTI BRANCH</p>
-                        <p>Address :971G/6,Kalki Street,Manthithoppu Road,Krishna Nagar,Kovilpatti-628502
+                        <p className='address'>Address :971G/6,Kalki Street,Manthithoppu Road,Krishna Nagar,Kovilpatti-628502
                             Landmark: After six veedu Line
                             Contact No : +91 8925831826
                             Email: enquiry@getintech.in
@@ -56,7 +57,7 @@ function Footer(){
                     </p>
                     <p className='foo'>
                         <p>VIRUDHUNAGAR BRANCH</p>
-                        <p>Address: 1st Floor, Venkadachalapathy Complex, NH 7, Kooraikundu– 626002
+                        <p className='address'>Address: 1st Floor, Venkadachalapathy Complex, NH 7, Kooraikundu– 626002
                             Landmark: Opp of Virudhunagar Collectorate
                             Contact No:+91 89258 31828
                             Email: enquiry@getintech.in
@@ -65,7 +66,7 @@ function Footer(){
                     </p>
                     <p className='foo'>
                         <p>TUTICRIN BRANCH</p>
-                        <p>Address: 4/18/4, Adhipara Sakthi Nagar, Ettayapuram Road, Tuticorin – 628002
+                        <p className='address'>Address: 4/18/4, Adhipara Sakthi Nagar, Ettayapuram Road, Tuticorin – 628002
                             Landmark: Near SRRA Hospital
                             Contact No: +91 89258 31824
                             Email: enquiry@getintech.in
@@ -74,7 +75,7 @@ function Footer(){
                     </p>
                     <p className='foo'>
                         <p>BANGALORE BRANCH</p>
-                        <p>Address: 79, KGF Munireddy Layout, Mahadevapura, Bangalore – 560048
+                        <p className='address'>Address: 79, KGF Munireddy Layout, Mahadevapura, Bangalore – 560048
                             Landmark: Near Atal Apartment
                             Contact No: +91 89258 31821
                             Email: enquiry@getintech.in
@@ -84,6 +85,10 @@ function Footer(){
                 </p>
             </p>
             <p className='copy'>© 2024 Getin Technologies. All Rights Reserved. Developed by <span className='rama'>Ramaussys Technologies.</span></p>
+            {/* <p className='copy1'>Terms of Use Disclaimer Privacy policy Refund Policy Contact Us</p> */}
+            {/* <p className='icon'>
+            <h1><one/></h1>
+            </p> */}
         </div>
     )
 }

@@ -21,14 +21,15 @@
     border-radius: 30px;
     font-weight: bold;
     background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: box-shadow 0.7s ease-in-out;
+    box-shadow: 0  0 30px 24px rgba(124, 150, 227, 0.2);
+    transition: 0.2s ease;
     cursor: pointer;
 }
 .tries:hover{
     /* opacity: 0.5; */
     cursor: pointer;
-    scale: 1.1;
+    transform: translateY(-30%);
+    
 }
 .tries img{
     width: 50px;

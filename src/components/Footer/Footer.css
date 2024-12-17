@@ -16,7 +16,17 @@
 }
 .copy{
     padding-left: 100px;
+    font-size: 10px;
 }
 .rama{
     color: red;
 }
+.address{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #d6d2d2;
+}
+/* .copy1{
+    display: flex;
+    justify-content: space-around;
+} */

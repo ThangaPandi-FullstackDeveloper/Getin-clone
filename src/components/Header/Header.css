@@ -4,6 +4,8 @@
     color: white;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
     
 }
 .header ul{
@@ -22,3 +24,13 @@
 .logo{
     text-align: center;
 }
+/* .whats{
+    height: 50px;
+    width: 50px;
+    position: sticky;
+    position: fixed;
+    z-index: -1;
+    position: absolute;
+    bottom: 200px;
+    right: 10px;
+} */

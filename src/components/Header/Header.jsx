@@ -1,5 +1,6 @@
 import './Header.css'
 import logo from '../../Media/logo.png'
+// import whats from '../../Media/whats.avif'
 function Header(){
     return(
         <div>
@@ -18,8 +19,10 @@ function Header(){
             </p>
             <p className='logo'>
                 <img src={logo} alt='logo'/>
-
             </p>
+            {/* <p className='whats'>
+                <img src={whats} alt='logo'/>
+            </p> */}
         </div>
         
     );
